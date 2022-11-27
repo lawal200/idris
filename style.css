@@ -1,0 +1,228 @@
+body{
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.avatar{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+}
+
+
+.container{
+    display: flex;
+    justify-content: center;
+    /*align-items: center;*/
+    width: 100%;
+    /* height: 100vh; */
+    /* flex-direction: column; */
+}
+
+
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    align-items: center;
+    /*justify-content: space-between;*/
+    
+}
+
+.header{
+    /*background-color: burlywood;*/
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    align-items: center;
+    height: 70px;
+    gap: 2rem;
+}
+
+.header-bar{
+    width: 30px;
+    height: 30px;
+}
+
+.header-avatar{
+    width: 40px;
+    height: 40px;
+
+}
+
+.content-name{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-icon{
+    width: 20px;
+    height: 20px;
+    padding-left: 10px;
+}
+
+.search-cam{
+    width: 30px;
+    height: 30px;
+}
+
+.search-mic{
+    width: 30px;
+    height: 30px;
+}
+
+.content-box{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.search-box{
+    display: flex;
+    gap: 1rem;
+    padding: 0 20px;
+    width: 500px;
+    height: 50px;
+    align-items: center;
+    border-radius: 40px;
+    box-shadow: 0 1px 6px 0 rgba(32, 33, 36, .28);
+}
+
+.input{
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+}
+
+.search-input{
+    width: 100%;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-box{
+    display: flex;
+    gap: 2rem;
+}
+
+.search-button, .lucky-button{
+    border: none;
+    background-color: rgba(192, 192, 192, 0.247);
+    outline: none;
+    padding: 10px 15px;
+    border-radius: 8px;
+}
+
+.story-box{
+    margin: 30px;
+    display: flex;
+    gap: 2rem;
+    flex-direction: column;
+}
+
+.story-text, .story-language{
+    font-size: 1.2rem;
+    color: blue;
+}
+
+.story-prefix{
+    color: rgb(87, 85, 85);
+}
+
+.footer-box{
+    background-color: rgba(192, 192, 192, 0.288);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-line{
+    background-color: silver;
+    width: 100%;
+    height: 1px;
+}
+
+.footer-top{
+    width: 90%;
+    padding: 15px 0px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.footer{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0px;
+}
+
+.footer-text{
+    font-size: 0.9rem;
+}
+
+.footer-left, .footer-middle, .footer-right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.footer-icon{
+    width: 30px;
+    height: 30px;
+}
+
+.content-text{
+    font-size: 90px;
+    font-weight: 600;
+}
+
+.content-text-blue{
+    color: blue;
+}
+
+.content-text-red{
+    color: red;
+}
+
+.content-text-orange{
+    color: orange;
+}
+
+.content-text-blue{
+    color: blue;
+}
+
+.content-text-green{
+    color: green;
+}
+
+.content-text-red{
+    color: red;
+}
+
+.bar{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.find, .mic, .cam, .flower{
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+}
